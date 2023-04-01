@@ -48,3 +48,28 @@ p2  {
   font-size: 30px;
     color: orange;
   }
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.text {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .img, .text {
+    width: 100%;
+    margin-right: 0;
+  }
+}
