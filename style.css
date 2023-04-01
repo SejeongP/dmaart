@@ -1,9 +1,11 @@
 
+
+
 body {
   padding-top: 3rem;
   margin: 1em;
   color: gray;
-  font-size: 18px;
+    font-size: 18px;
 
   font-family: Athelas;
 background-image: url("https://cdn.glitch.me/1c92fbe9-6720-4330-906d-f5399039e2cf%2FCovid.jpg?v=1636609778138");
@@ -13,6 +15,7 @@ background-image: url("https://cdn.glitch.me/1c92fbe9-6720-4330-906d-f5399039e2c
   padding: 3rem 1.5rem;
   text-align: left;
  
+  
 }
 .nav-p{
   display:inline-block;
@@ -26,50 +29,24 @@ background-image: url("https://cdn.glitch.me/1c92fbe9-6720-4330-906d-f5399039e2c
   color: white;
   
 }
+
 h1 {
   font-family: Athelas;
   font-style: bold;
-  text-align: center;
-  color: orange;
-  font-size: 100px
+  color: gray;
+  font-size: 20px;
   }
 p  {
-  text-align: center;
-  font-size: 20px;
-}
+  font-size: 30px;
+    color: orange;
 
+}
 p1  {
   font-size: 60px;
     color: orange;
-}
-  
-  
-p2  {
-  font-size: 30px;
-    color: orange;
-  }
 
-.container {
-  display: flex;
-  align-items: center;
+
 }
 
-.img {
-  width: 50%;
-  margin-right: 20px;
-}
 
-.text {
-  width: 50%;
-}
 
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-  
-  .img, .text {
-    width: 100%;
-    margin-right: 0;
-  }
-}
